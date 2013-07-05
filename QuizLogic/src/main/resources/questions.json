@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "category": "Serialization",
+            "question": "Wat gebeurt er als je een subclass serialiseert en de parent is niet Serializable?",
+            "answer": "Alleen de state van de subclass wordt geserialiseerd, de state van de parent krijgt bij deserialisatie de initialisatie-waardes.",
+            "hide": false
+        },
+        {
+            "category": "Static nested class",
+            "question": "Hoe roep je deze aan?",
+            "answer": "Op dezelfde manier als andere statische members van een class.",
+            "hide": false
+        }
+    ]
+}
